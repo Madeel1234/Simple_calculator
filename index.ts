@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-//shabang
+
 import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
@@ -26,3 +26,5 @@ if (answer.operator === "ADDITION") {
         console.log(answer.firstNumber / answer.secondNumber);
 }
 else ("Please select correct operator")
+
+console.log("THE END")
